@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travel Assistant</string>
+    <string name="Route">Route</string>
+    <string name="Travel_date">Travel Date</string>
+    <string name="Time">Time</string>
+    <string name="First_button">Next</string>
+    <string name="Seat">Seat Allocation</string>
+    <string name="A1">A1</string>
+    <string name="A2">A2</string>
+    <string name="A3">A3</string>
+    <string name="A4">A4</string>
+    <string name="B1">B1</string>
+    <string name="B2">B2</string>
+    <string name="B3">B3</string>
+    <string name="B4">B4</string>
+    <string name="C1">C1</string>
+    <string name="C2">C2</string>
+    <string name="C3">C3</string>
+    <string name="C4">C4</string>
+    <string name="D1">D1</string>
+    <string name="D2">D2</string>
+    <string name="D3">D3</string>
+    <string name="D4">D4</string>
+    <string name="E1">E1</string>
+    <string name="E2">E2</string>
+    <string name="E3">E3</string>
+    <string name="E4">E4</string>
+    <string name="c_name">Name:</string>
+    <string name="c_p_no">Phone No.:</string>
+    <string name="seats_selected">Selected Seat:</string>
+    <string name="seat_cost">Per Seat Cost:</string>
+    <string name="total_cost">Total Cost:</string>
+    <string name="payment">Payment Status:</string>
+    <string name="Second_button">Next</string>
+    <string name="Third_button">Pay</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="phone_hint">Enter your phone number</string>
+
+    <string-array name="route_name">
+        <item>Dhaka To Chittagong</item>
+        <item>Dhaka To Rajshahi</item>
+    </string-array>
+
+    <string-array name="time_name">
+        <item>8.00 AM</item>
+        <item>10.00 PM</item>
+    </string-array>
+    <string-array name="bus_name">
+        <item>Hanif</item>
+        <item>Shaymoli</item>
+    </string-array>
+</resources>

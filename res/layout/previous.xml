@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/a4"
+              android:weightSum="1">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="5">
+
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:hint="Enter Purchase ID"
+                android:id="@+id/editText2"
+                android:layout_weight="3.5"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Get Details"
+                android:textSize="17dp"
+
+                android:textStyle="bold"
+                android:id="@+id/detail"
+                android:layout_weight="1.5"/>
+    </LinearLayout>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.11"
+            android:layout_marginTop="25dp">
+
+        <TableRow
+                android:layout_marginBottom="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+
+                    android:text="Name"
+                    android:id="@+id/textView27"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView28"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_name"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+
+
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Phone No.  "
+                    android:id="@+id/textView29"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView30"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_phone"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Bus Name"
+                    android:id="@+id/textView31"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView32"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_bus"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/Route"
+                    android:id="@+id/textView34"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView35"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_route"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/Travel_date"
+                    android:id="@+id/textView37"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView38"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_date"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/Time"
+                    android:id="@+id/textView40"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView41"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_time"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="13dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Seat"
+                    android:id="@+id/textView43"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView44"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/prev_seat"
+                    android:layout_column="9"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_marginBottom="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Status"
+                    android:id="@+id/textView39"
+                    android:layout_column="7"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text=" : "
+                    android:id="@+id/textView42"
+                    android:layout_column="8"/>
+
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:id="@+id/p_status"
+                    android:layout_column="9"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/b4"
+              android:weightSum="1">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Purchase ID"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView9"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" : "
+
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textView9"
+                android:id="@+id/textView12"/>
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pur_id"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/textView12"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="bKash ID"
+                android:id="@+id/textView33"
+                android:layout_below="@+id/pur_id"
+                android:layout_alignParentStart="true"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" : "
+                android:id="@+id/textView36"
+                android:layout_alignTop="@+id/textView33"
+                android:layout_toEndOf="@+id/textView9"/>
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bkash_id"
+                android:layout_alignTop="@+id/textView36"
+                android:layout_toEndOf="@+id/textView36"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        <Button
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:text="pay"
+                android:id="@+id/late_pay"
+                android:layout_gravity="center_horizontal"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back to Menu"
+                android:id="@+id/menu_back"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/bkashmsg"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00"/>
+
+</LinearLayout>

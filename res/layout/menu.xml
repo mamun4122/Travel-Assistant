@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/a1"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advance Booking"
+                android:textSize="29dp"
+                android:id="@+id/booking"
+                android:layout_weight="0.10"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="29dp"
+                android:text="Pay with bKash"
+                android:backgroundTintMode="src_in"
+                android:id="@+id/pay_bkash" android:layout_weight="0.10"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:textSize="29dp"
+                android:text="Check Status"
+                android:backgroundTintMode="src_in"
+                android:id="@+id/prev_pur" android:layout_weight="0.10"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_marginBottom="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="29dp"
+                android:text="About us"
+                android:id="@+id/care" android:layout_weight="0.10"/>
+    </LinearLayout>
+</LinearLayout>
