@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by MASUD on 1/21/2015.
+ * Created by Mamun on 1/21/2015.
  */
 public class Menu extends Activity implements View.OnClickListener {
     Button book, prev, customer, pay_bkash;

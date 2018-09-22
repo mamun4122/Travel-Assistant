@@ -28,7 +28,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 /**
- * Created by Zuel on 26-01-2015.
+ * Created by Mamun on 26-01-2015.
  */
 public class Pay extends Activity {
 

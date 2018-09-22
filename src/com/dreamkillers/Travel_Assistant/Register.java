@@ -28,7 +28,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 /**
- * Created by MASUD on 1/21/2015.
+ * Created by Mamun on 1/21/2015.
  */
 public class Register extends Activity {
 

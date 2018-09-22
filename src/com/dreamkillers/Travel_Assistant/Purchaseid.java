@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
- * Created by Zuel on 27-01-2015.
+ * Created by Mamun on 27-01-2015.
  */
 public class Purchaseid extends Activity implements View.OnClickListener {
 

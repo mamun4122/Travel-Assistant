@@ -27,7 +27,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 /**
- * Created by MASUD on 1/22/2015.
+ * Created by Mamun on 1/22/2015.
  */
 public class Booking extends Activity {
 

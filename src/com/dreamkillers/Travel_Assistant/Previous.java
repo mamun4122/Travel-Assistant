@@ -28,7 +28,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 /**
- * Created by Zuel on 27-01-2015.
+ * Created by Mamun on 27-01-2015.
  */
 public class Previous extends Activity {
     private static final String purchase_URL = "http://192.168.111.1:80/mamun/purchase.php";

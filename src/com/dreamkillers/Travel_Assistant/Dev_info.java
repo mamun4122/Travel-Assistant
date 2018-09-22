@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by Zuel on 26-01-2015.
+ * Created by Mamun on 26-01-2015.
  */
 public class Dev_info extends Activity {
     Button m, s, k, p, sc, hc;
